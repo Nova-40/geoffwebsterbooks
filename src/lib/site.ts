@@ -6,12 +6,12 @@ export const site: SiteConfig = {
   description:
     "Author of The Gorstan Chronicles and the Bowley mysteries. Fantasy realms, 1930s intrigue, and interactive fiction.",
   social: {
-    email: "mail@example.com",
+    email: "geoff@geoffwebsterbooks.com",
   },
   ctas: {
     books: "#books",
     playGorstan: {
-      href: "/game",
+      href: "https://gorstan-game.vercel.app/",
       label: "Play Gorstan",
       className:
         "rounded-2xl bg-black/70 text-white px-5 py-3 text-sm font-medium hover:bg-black/85",
