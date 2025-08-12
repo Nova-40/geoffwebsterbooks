@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-link: #0a0a0a;
+  --color-link-hover: #1a1a1a;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --color-link: #ededed;
+    --color-link-hover: #fff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+}
+
+a {
+  color: var(--color-link);
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--color-link-hover);
+  outline: 2px solid var(--color-link-hover);
+  outline-offset: 2px;
+}
+
+.font-serif { font-family: ui-serif, Georgia, "Times New Roman", serif; }
